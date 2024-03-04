@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa6";
 
 const Home = () => {
 	return (
-		<div className="home">
+		<div className="home" id="home">
 			<div>
 				<h1>WEB</h1>
 				<h1>
@@ -15,15 +15,27 @@ const Home = () => {
 			</div>
 
 			<div className="social-icons">
-				<div className="icons">
+				<a
+					href="https://in.linkedin.com/in/anshul25?original_referer=https%3A%2F%2Fwww.google.com%2F"
+					target="blank"
+					className="icons"
+				>
 					<FaLinkedin size={"1.5rem"} />
-				</div>
-				<div className="icons">
+				</a>
+				<a
+					href="https://www.instagram.com/anshul._012/"
+					target="blank"
+					className="icons"
+				>
 					<RiInstagramFill size={"1.5rem"} />
-				</div>
-				<div className="icons">
+				</a>
+				<a
+					href="https://github.com/Anshul-251204"
+					target="blank"
+					className="icons"
+				>
 					<FaGithub size={"1.5rem"} />
-				</div>
+				</a>
 			</div>
 		</div>
 	);
