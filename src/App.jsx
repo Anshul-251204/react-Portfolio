@@ -17,9 +17,9 @@ const App = () => {
 				<Route path="/about" element={<About />} />
 				<Route path="/project" element={<Project />} />
 			</Routes>
-			{/* <Skill />
+			<Skill />
 			<About />
-			<Project /> */}
+			<Project />
 		</BrowserRouter>
 	);
 };
