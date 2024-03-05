@@ -7,10 +7,10 @@ const Nav = () => {
         <p>ANSHUL😂</p>
 
         <ul>
-            <a href={"#home"}>HOME</a>
-            <a href={"#skill"}>SKiLLS</a>
-            <a href='#project'>PROJECTS</a>
-            <a href='#about'>ABOUT</a>
+            <a href={"/"}>HOME</a>
+            <a href={"/skill"}>SKiLLS</a>
+            <a href='/project'>PROJECTS</a>
+            <a href='/about'>ABOUT</a>
         </ul>
 
         <p>CONTACT US.</p>

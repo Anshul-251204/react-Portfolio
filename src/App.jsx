@@ -6,14 +6,20 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Skill from "./components/Skill";
 import Project from "./components/Project";
 import About from "./components/About";
+import ProjectPage from "./components/ProjectPage";
 const App = () => {
 	return (
 		<BrowserRouter>
 			<Nav />
-			<Home />
-			<Skill />
-			<Project/>
-			<About/>
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="/skill" element={<Skill />} />
+				<Route path="/about" element={<About />} />
+				<Route path="/project" element={<Project />} />
+			</Routes>
+			{/* <Skill />
+			<About />
+			<Project /> */}
 		</BrowserRouter>
 	);
 };
